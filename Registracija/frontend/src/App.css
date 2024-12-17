@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif; 
+  margin: 110px;
+  background-image: url('https://4kwallpapers.com/images/wallpapers/winter-snow-covered-foggy-trees-landscape-blue-hour-1920x1080-7147.jpg');
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  padding-top: 30px; 
+}
+
+h1 {
+  text-align: center; 
+  color: white; 
+  font-size: 2rem;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}
+
+.form-container-register,
+.form-container-login {
+  width: 300px; 
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container-register {
+  background-color: rgba(147, 147, 179, 0.563);
+  color: white;
+}
+
+.form-container-login {
+  background-color: rgba(147, 147, 179, 0.563);
+  color: white;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: rgb(49, 49, 67);;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(89, 89, 113);
+
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
